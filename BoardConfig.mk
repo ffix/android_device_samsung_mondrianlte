@@ -101,7 +101,7 @@ TARGET_RECOVERY_FSTAB := device/samsung/mondrianlte/rootdir/etc/fstab.qcom
 BOARD_RIL_CLASS := ../../../device/samsung/mondrianlte/ril
 BOARD_PROVIDES_LIBRIL := true
 BOARD_PROVIDES_RILD := true
-COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
+DISABLE_ASHMEM_TRACKING := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
